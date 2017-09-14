@@ -1,0 +1,98 @@
+sudo apt install python3-pip
+
+pip3 install virtualenvwrapper
+
+add these lines to ~/.bashrc file
+#virtualenvwrapper
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Devel
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+source /usr/local/bin/virtualenvwrapper.sh
+
+and then run this command
+source ~/.bashrc
+
+mkvirtualenv ang2
+or
+mkvirtualenv --python=/usr/local/bin/python3 ang2
+
+pip3 install django
+
+python -m django --version
+
+django-admin startproject mysite
+cd mysite/
+python manage.py migrate
+python manage.py runserver
+http://127.0.0.1:8000/
+
+kill django server
+fuser -k 8000/tcp
+
+npm install -g @angular/cli
+
+ng new client
+
+cd client
+ng serve
+
+
+git remote show origin
+
+git push origin master
+
+sudo apt install python3-pip
+
+pip3 install virtualenvwrapper
+
+add these lines to ~/.bashrc file
+#virtualenvwrapper
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Devel
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+source /usr/local/bin/virtualenvwrapper.sh
+
+and then run this command
+source ~/.bashrc
+
+mkvirtualenv ang2
+or
+mkvirtualenv --python=/usr/local/bin/python3 ang2
+
+pip3 install django
+
+python -m django --version
+
+django-admin startproject mysite
+cd mysite/
+python manage.py migrate
+python manage.py runserver
+http://127.0.0.1:8000/
+
+kill django server
+fuser -k 8000/tcp
+
+npm install -g @angular/cli
+
+ng new client
+
+cd client
+ng serve
+
+
+echo "# angular2drf" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/maskofoz/angular2drf.git
+git push -u origin master
+
+http://pep8.readthedocs.io/en/release-1.7.x/intro.html
+
+
+
+git fetch --all
+
+Then, you have two options:
+
+git reset --hard origin/master
